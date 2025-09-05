@@ -1,7 +1,7 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using System.Collections;
 
-public class GameStartManager : MonoBehaviour
+public class TutorialManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -12,9 +12,11 @@ public class GameStartManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        Destroy(gameObject, 6.5f);
+        
     }
 
-   
+    public void Tutorial()
+    {
+        Debug.Log("Tutorial");
+    }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Arrival_Point
   - Rock
+  - Tutorial
   layers:
   - Default
   - TransparentFX
